@@ -1,21 +1,15 @@
 import {Header} from './components/Header';
-
 import {Post} from './components/Post';
-import './global.css';
+
+import styles from './App.module.css';
 
 export function App() {
   return (
     <div>
-
-     <Header/>
-      <Post
-        author="Carol Barbosa"
-        content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem beatae similique quisquam ipsa,"
-      />
-       <Post
-        author="Joao"
-        content="O que vc acha desse conteudo? Curta se vc concorda!"
-      />
+      <Header/>
+      <div className="styles.wrapper">
+        <aside></aside>
+      </div>
     </div>
   )
 }

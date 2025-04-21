@@ -27,5 +27,4 @@ body, input, textarea, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem; /*CADA 1 REM É 16px, isso é bom pra manter a preferencia na acessibilidade na maquina do usuario */
-
 }
